@@ -51,7 +51,7 @@
               <template v-if="typeof(business) === 'string'">
                 <div class="address newlined">{{ business }}</div>
               </template>
-             <!-- <template v-else>
+              <template v-else>
                 <div class="address">
                   <span class="name">{{ business.Name }}</span><br />
                   {{ business.Street1 }}<br />
@@ -61,7 +61,7 @@
                   {{ business.City }} {{ business.State }} {{ business.Zip }}<br />
                   <template v-if="business.Country">
                     {{ business.Country }}<br />
-                  </template> -->
+                  </template>
                 </div>
                 <template v-if="business.Email">
                   <div class="email">{{ business.Email }}</div>
